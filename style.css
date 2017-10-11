@@ -1,0 +1,15 @@
+#board {
+	background-color: burlywood;
+	height: 400px;
+    width: 400px;
+    margin: 20px;
+}
+
+.tile {
+	width: 98px;
+    height: 98px;
+    background-color: cadetblue;
+    border: 1px solid white;
+    display: inline-block;
+}
+
