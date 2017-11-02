@@ -1,7 +1,7 @@
 #board {
 	background-color: burlywood;
 	height: 400px;
-    width: 400px;
+    width: 412px;
     margin: 20px;
 }
 
@@ -11,5 +11,6 @@
     background-color: cadetblue;
     border: 1px solid white;
     display: inline-block;
+    vertical-align: top;
 }
 
