@@ -29,8 +29,8 @@ game.state = {
 }
 
 function init() {
-	var htmlTiles = document.getElementsByClassName("tile");
-	
+	var htmlTiles = document.getElementsByClassName("tile"); //agrupar os elementos html vivos numa matriz chamada tiles
+															 //mais facil de acessar os tiles
 	for (var i = 0; i < 4; i++) {
 		for (var j = 0; j < 4; j++) {
 			game.tiles[i].push(htmlTiles[4*i+j]);
@@ -49,7 +49,7 @@ function updateTiles() {
 	}
 }
 
-window.onload = function () {
+window.onload = function () {								//espera carregar tudo que precisa pra mandar ver
 	init();
 	updateTiles();
 }
