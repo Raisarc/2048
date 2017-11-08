@@ -1,16 +1,17 @@
 #board {
-	background-color: burlywood;
-	height: 400px;
-    width: 412px;
+	background-color: cadetblue;
+	height: 410px;
+    width: 410px;
     margin: 20px;
 }
 
 .tile {
 	width: 98px;
     height: 98px;
-    background-color: cadetblue;
+    background-color: #8ccacc;
     border: 1px solid white;
-    display: inline-block;
-    vertical-align: top;
+    display: inline-table;
+    vertical-align: sub;
+    margin-right: -4px;
+    margin-left: 3.5px;
 }
-
